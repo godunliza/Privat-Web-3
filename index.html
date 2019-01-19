@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>formDemo</title>
+</head>
+<body>
+	<h1>Form Demo</h1>
+	<form >
+		<fieldset>
+			<legend>Text input</legend>
+			<p>
+			<label for="textbox">Text Box</label>
+			<input type="text" placeholder="text here" id="textbox">
+			</p>
+			<p>
+			<label for="pasw">Password</label>
+			<input type="password" placeholder="******" id="pasw" autocomplete="on">
+			</p>
+			<p>
+			<label for="tarea">Text area</label>
+			<textarea id="tarea" cols="100" rows="3" placeholder="Your text here"></textarea>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Selecting elements</legend>
+			<p>
+			<label for="sel">Select list</label>
+			<select id="sel">
+				<option >one</option>
+			</select>
+			</p>
+			<p>
+			<span>CheckBoxes</span>
+			<input type="checkbox" id="egg"><label for="egg">Green eggs</label>			
+			<input type="checkbox" id="ham"><label for="ham">Ham</label>
+			</p>
+			<p>
+			<span >Radio buttons</span>
+			<input type="radio" id="sm"><label for="sm">small</label>			
+			<input type="radio" id="med"><label for="med">medium</label>
+			<input type="radio" id="lar"><label for="lar">large</label>
+		</p>
+		</fieldset>
+		<fieldset>
+			<legend>Buttons</legend>
+			<button>Standart button</button>
+			<input type="button" value="input button">
+			<input type="reset" value="Reset">
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+	
+</body>
+</html>
